@@ -1,0 +1,5 @@
+---
+services:
+  client:
+    environment:
+      - CLIENT_MESSAGE=${CLIENT_MESSAGE}
