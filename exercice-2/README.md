@@ -27,17 +27,17 @@ git clone https://github.com/mxmchr/docker-evaluation_c_maxime
 cd ./docker-evaluation_c_maxime/exercice-1
 ```
 ## Structure du Projet
-/exercice-1
-├── client
-│   ├── Dockerfile
-│   ├── index.php
-│   └── ...
-├── database
-│   ├── Dockerfile
-│   └── ...
-├── docker-compose.yml
-├── .env
-└── README.md
+- `compose.dev.yml`: Fichier de composition pour le développement.
+- `compose.yml`: Fichier de composition.
+- `data`: Répertoire pour les données.
+- `dev.env`: Variables d'environnement pour le développement.
+- `docker_doc_dev_dump.sql`: Dump SQL développement.
+- `Dockerfile`: Fichier Docker.
+- `init.sql`: Script d'initialisation SQL.
+- `prod.env`: Variables d'environnement pour la production.
+- `README.md`: Documentation de l'exercice-1.
+- `www`: Répertoire contenant les fichiers Web.
+  - `index.php`: Fichier principal PHP.
 
 ## Réponses aux questions
 ### 1
